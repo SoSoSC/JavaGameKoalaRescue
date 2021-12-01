@@ -8,7 +8,6 @@ import java.util.*;
 public class KoalaRescue
 {
     // name of leader, select choice, how many run time, budget and cost
-    private String name;
     private String choice;
     private int gameTime;
     private int budgetAmount;
@@ -21,7 +20,6 @@ public class KoalaRescue
      */
     public KoalaRescue()
     {
-        name = "";
         choice = "";
         gameTime = 0;
         budgetAmount = 0;
@@ -98,7 +96,7 @@ public class KoalaRescue
                 return false;
             }
         }
-        budgetAmount = Integer.valueOf(budget);
+        int budgetAmount = Integer.valueOf(budget);
         if (budgetAmount < 100 || budgetAmount > 200)
         {
             System.out.println("Should between 100 and 200, inclusively");
@@ -175,7 +173,7 @@ public class KoalaRescue
      */
     public boolean validName(String name)
     {
-        if (name.length() == 0)
+        if (name.isEmpty() )//name.length() == 0)
         {
             System.out.println("Should not be blank");
             return false;
@@ -197,6 +195,7 @@ public class KoalaRescue
         }
         return true;
     }  
+
 
     /**
      * to get Budget Amount
@@ -245,6 +244,7 @@ public class KoalaRescue
      */
     public void enterName()
     {
+        String name;
         do
         {
             System.out.println("Please enter your name (alphabetic, should less than 16 characters, cannot be blank, ):");

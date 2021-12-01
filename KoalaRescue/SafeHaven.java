@@ -88,7 +88,7 @@ public class SafeHaven
     {
         int maxAge = getMaxAge();
         int koalaAge = 0;
-        int index = 0;
+        index = 0;
         while (koalaAge != maxAge)
         {
             koalaAge = healthyKoalas.get(index).getKoalaAge();

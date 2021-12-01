@@ -147,7 +147,7 @@ public class ObservationPoint
     public int getInjuredKoalaAge()
     {
         return injuredKoalas.get(0).getKoalaAge();
-    }  
+    }     
 
     /**
      * to get Injured koala Number
