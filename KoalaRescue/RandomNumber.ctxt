@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=RandomNumber
+comment0.text=\r\n\ The\ RandomNumber\ class\ generate\ a\ random\ number\ form\ 1\ to\ a\r\n\ input\ maximum\ number.\r\n\r\n\ @author\ Chang\ Su\r\n\ @version\ 1\r\n
+comment1.params=maximumNumber
+comment1.target=int\ generateRandomNumber(int)
+comment1.text=\r\n\ generate\ a\ random\ number\ between\ 1\ and\ input\ number.\r\n
+numComments=2

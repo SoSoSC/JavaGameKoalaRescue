@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Koala
+comment0.text=\r\n\ class\ Koala\ to\ provide\ background\ of\ simulation\ with\ age\ and\ condition(healthy\ or\ injured).\r\n\r\n\ @author\ Chang\ Su\r\n\ @version\ 3\r\n
+comment1.params=
+comment1.target=Koala()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Koala\r\n
+comment2.params=koalaAge\ koalaCondition
+comment2.target=Koala(int,\ boolean)
+comment2.text=\r\n\ to\ create\ non-default\ koala\r\n
+comment3.params=
+comment3.target=boolean\ getKoalaCondition()
+comment3.text=\r\n\ to\ get\ Koala\ Condition\r\n
+comment4.params=
+comment4.target=int\ getKoalaAge()
+comment4.text=\r\n\ to\ get\ koala\ age\r\n
+comment5.params=koalaAge
+comment5.target=void\ setKoalaAge(int)
+comment5.text=\r\n\ to\ set\ Koala\ Age\r\n
+comment6.params=koalaCondition
+comment6.target=void\ setKoalaCondition(boolean)
+comment6.text=\r\n\ to\ set\ Koala\ Condition\r\n
+numComments=7

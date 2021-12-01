@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Tree
+comment0.text=\r\n\ to\ provide\ Tree\ for\ koala\ environment\r\n\r\n\ @author\ Chang\ Su\r\n\ @version\ 3\r\n
+comment1.params=
+comment1.target=Tree()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Tree\r\n
+comment2.params=newUsage\ newType
+comment2.target=Tree(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ to\ create\ non-default\ tree\r\n
+comment3.params=
+comment3.target=java.lang.String\ getType()
+comment3.text=\r\n\ to\ get\ tree\ type\r\n
+comment4.params=
+comment4.target=java.lang.String\ getUsage()
+comment4.text=\r\n\ to\ get\ tree\ usage\r\n
+comment5.params=newType
+comment5.target=void\ setType(java.lang.String)
+comment5.text=\r\n\ to\ set\ tree\ type\r\n
+comment6.params=newUsage
+comment6.target=void\ setUsage(java.lang.String)
+comment6.text=\r\n\ to\ set\ tree\ usage\r\n
+numComments=7
